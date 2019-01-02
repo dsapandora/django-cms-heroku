@@ -181,7 +181,6 @@ CMS_PERMISSION = True
 
 CMS_PLACEHOLDER_CONF = {}
 
-postgres:///
 
 DATABASES = {
     'default': {
