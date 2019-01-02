@@ -188,7 +188,7 @@ CMS_PLACEHOLDER_CONF = {}
 # }
 import dj_database_url
 DATABASES = {}
-DATABASES['default'] =  dj_database_url.config()
+DATABASES['default'] =  dj_database_url.config(ssl_require=True)
 
 MIGRATION_MODULES = {
 
