@@ -28,8 +28,9 @@ SECRET_KEY = '^c^kge-)lb4=&kdh6iy1s&=loj6s05s_l9&ec3j_l0x$(lc@s_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
+WSGI_APPLICATION = 'mysite.wsgi.application'
 
 # Application definition
 
