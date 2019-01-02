@@ -30,8 +30,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-WSGI_APPLICATION = 'mysite.wsgi.application'
-
 # Application definition
 
 
