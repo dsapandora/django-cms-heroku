@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/1.11/howto/deployment/wsgi/
 
 import os
 
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 from django.core.wsgi import get_wsgi_application
 from whitenoise.django import DjangoWhiteNoise
 
