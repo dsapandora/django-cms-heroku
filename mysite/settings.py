@@ -181,14 +181,17 @@ CMS_PERMISSION = True
 
 CMS_PLACEHOLDER_CONF = {}
 
-# DATABASES = {
-#     'default': {
-#     'ENGINE': 'django.db.backends.postgresql_psycopg2'
-#     }
-# }
-import dj_database_url
-DATABASES = {}
-DATABASES['default'] =  dj_database_url.config(ssl_require=True)
+postgres:///
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dr7vl6l9ea402',
+        'USER': 'pbabvaymnhgqwt',
+        'PASSWORD': '2380730c8db93eca5087762bc7e9ae8ef6d3c9bf833aa0048bdd23d07dd44279',
+        'HOST': 'ec2-54-235-247-209.compute-1.amazonaws.com:5432'
+    }
+}
 
 MIGRATION_MODULES = {
 
