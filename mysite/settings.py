@@ -102,6 +102,7 @@ TEMPLATES = [
     },
 ]
 
+MIDDLEWARE_CLASSES = ('whitenoise.middleware.WhiteNoiseMiddleware')
 
 MIDDLEWARE = (
     'cms.middleware.utils.ApphookReloadMiddleware',
