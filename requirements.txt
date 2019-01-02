@@ -22,6 +22,6 @@ django-sekizai>=0.9
 six
 psycopg2==2.7.1
 gunicorn>=19.5.0
-git+https://github.com/ntravis/django-heroku@fix/whitenoise-after-django-securitymiddleware
+django-heroku
 whitenoise
 dj-database-url
