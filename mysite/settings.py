@@ -182,7 +182,9 @@ CMS_PERMISSION = True
 CMS_PLACEHOLDER_CONF = {}
 
 DATABASES = {
-    'default': { }
+    'default': {
+    'ENGINE': 'django.db.backends.postgresql_psycopg2'
+    }
 }
 
 MIGRATION_MODULES = {
