@@ -181,11 +181,13 @@ CMS_PERMISSION = True
 
 CMS_PLACEHOLDER_CONF = {}
 
-DATABASES = {
-    'default': {
-    'ENGINE': 'django.db.backends.postgresql_psycopg2'
-    }
-}
+# DATABASES = {
+#     'default': {
+#     'ENGINE': 'django.db.backends.postgresql_psycopg2'
+#     }
+# }
+import dj_database_url
+DATABASES['default'] =  dj_database_url.config()
 
 MIGRATION_MODULES = {
 
