@@ -20,7 +20,7 @@ html5lib>=1.0.1
 Pillow>=3.0
 django-sekizai>=0.9
 six
-psycopg2
+psycopg2==2.7.3.1
 gunicorn>=19.5.0
 git+https://github.com/ntravis/django-heroku@fix/whitenoise-after-django-securitymiddleware
 whitenoise
