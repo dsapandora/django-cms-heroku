@@ -1,8 +1,10 @@
 {% extends "base.html" %}
-{% load cms_tags %}
+{% load i18n cms_tags %}
 
-{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+{% block body_class %}tpl-fullwidth{% endblock %}
 
 {% block content %}
-	{% placeholder "content" %}
-{% endblock content %}
+    <div class="container">
+        {% with 940 as width %}{% placeholder content %}{% endwith %}
+    </div>
+{% endblock %}
